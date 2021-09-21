@@ -1,0 +1,22 @@
+<konferencia>
+  
+  <cim id="dtk_5pm_2jb" neve="kispista"/>
+  
+  <hallgatok>
+    <hallgato>
+      <nev/>
+      <lakcim/>
+    </hallgato>
+  </hallgatok>
+  
+  <helyszin/>
+  
+  <eloado>
+    <nev/>
+    <adoszam/>
+    <lakcim/>
+  </eloado>
+  
+  <datum/>
+  
+</konferencia>
