@@ -1,9 +1,11 @@
+!ELEMENT udvar (gazda?, kutya?, tyuk+, diszno?)> 
+
 <udvar>
     <gazda nev="Alex"/>
     <kutya nev="Nero"></kutya>
     <kakas id="szv_ns3_2jb"/>
     <tyuk ferj="szv_ns3_2jb"/>
     <tyuk ferj="szv_ns3_2jb"/>
-    <!——<roka/>——>
-    <diszno nev="Józsi"></diszno>
+    <!--<roka/>-->
+    <diszno nev="Józsi"></diszn0>
 </udvar>   
