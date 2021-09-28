@@ -1,22 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <konferencia>
-  
-  <cim id="dtk_5pm_2jb" neve="kispista"/>
-  
-  <hallgatok>
-    <hallgato>
-      <nev/>
-      <lakcim/>
-    </hallgato>
-  </hallgatok>
-  
-  <helyszin/>
-  
-  <eloado>
-    <nev/>
-    <adoszam/>
-    <lakcim/>
-  </eloado>
-  
-  <datum/>
-  
+    <cim cim="XML"/>
+    <hallgatók>
+        <hallgató>
+            <név nev="Mészáros Marcell"/>
+            <lakcím cim="Szirmabesenyő"/>
+        </hallgató>
+    </hallgatók>
+    <helyszín hely="Miskolci Egyetem"/>
+    <előadó>
+        <név nev="Bednarik László"/>
+        <adószám id="11456489"/>
+        <lakcím cim="Miskolc"/>
+    </előadó>
+    <dátum datum="2021.09.21"/>
 </konferencia>
