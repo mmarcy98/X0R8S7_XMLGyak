@@ -12,7 +12,7 @@
             <utca>Egyetemváros</utca>
             <hazszam>1</hazszam>
         </cim>
-        <telefonszam>36301234567</telefonszam>
+        <telefonszam>3646565111</telefonszam>
         <weblap>uni-miskolc.hu</weblap>
     </ceg>
      <beosztas>Hallgató</beosztas>
@@ -21,7 +21,7 @@
   </nevjegykartya>
  <nevjegykartya>
  <nevjegykartya>
-    <nev>Váradi Nóra</nev>
+    <nev>Bednarik László</nev>
     <ceg>
         <nev>Miskolci Egyetem</nev>
         <cim>
@@ -30,11 +30,11 @@
             <utca>Egyetemváros</utca>
             <hazszam>1</hazszam>
         </cim>
-        <telefonszam>36301234567</telefonszam>
+        <telefonszam>3646565111</telefonszam>
         <weblap>uni-miskolc.hu</weblap>
     </ceg>
-     <beosztas>Hallgató</beosztas>
-     <telefonszam>36703569555</telefonszam>
-     <email>varadi.nora@gmail.com</email>
+     <beosztas>Egyetemi Docens</beosztas>
+     <telefonszam>17-58</telefonszam>
+     <email>bednarik.laszlo@iit.uni-miskolc.hu</email>
  </nevjegykartya>
 </nevjegykartyak>
