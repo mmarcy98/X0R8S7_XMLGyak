@@ -2,29 +2,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <nevjegykartyak>
-<nevjegykartya>
-    <nev>Mészáros</nev>
+ <nevjegykartya>
+    <nev>Mészáros Marcell</nev>
     <ceg>
-        <nev>Marcell</nev>
+        <nev>Miskolci Egyetem</nev>
         <cim>
-            <iranyitoszam>3711</iranyitoszam>
-            <varos>Szirmabesenyő</varos>
-            <utca>Dankó Pista</utca>
-            <hazszam>24</hazszam>
+            <iranyitoszam>3530</iranyitoszam>
+            <varos>Miskolc</varos>
+            <utca>Egyetemváros</utca>
+            <hazszam>1</hazszam>
         </cim>
-        <telefonszam>36306549090</telefonszam>
-        <weblap>mmarcell.hu</weblap></ceg>
-    </nevjegykartya>
-<nevjegykartya>
-    <nev>Váradi</nev>
+        <telefonszam>36301234567</telefonszam>
+        <weblap>uni-miskolc.hu</weblap>
+    </ceg>
+     <beosztas>Hallgató</beosztas>
+     <telefonszam>36306549091</telefonszam>
+     <email>marcell.meszaros.98@gmail.com</email>
+  </nevjegykartya>
+ <nevjegykartya>
+ <nevjegykartya>
+    <nev>Váradi Nóra</nev>
     <ceg>
-        <nev>Nóra</nev>
+        <nev>Miskolci Egyetem</nev>
         <cim>
-            <iranyitoszam>4150</iranyitoszam>
-            <varos>Püspökladány</varos>
-            <utca>petőfi</utca>
-            <hazszam>11</hazszam>
+            <iranyitoszam>3530</iranyitoszam>
+            <varos>Miskolc</varos>
+            <utca>Egyetemváros</utca>
+            <hazszam>1</hazszam>
         </cim>
-        <telefonszam>36705679555</telefonszam>
-        <weblap>varadinora.com</weblap></ceg>
-    </nevjegykartya>
+        <telefonszam>36301234567</telefonszam>
+        <weblap>uni-miskolc.hu</weblap>
+    </ceg>
+     <beosztas>Hallgató</beosztas>
+     <telefonszam>36703569555</telefonszam>
+     <email>varadi.nora@gmail.com</email>
+ </nevjegykartya>
+</nevjegykartyak>
