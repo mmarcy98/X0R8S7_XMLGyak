@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<mozi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xsi:noNamespaceSchemaLocation="ZSN_mozi1.xsd" >
+	<film id="x01" mufaj="scifi">
+		<rendezo id="x01" nev="Jani" />
+		<rendezo id="x02" nev="Jani" />
+		<szinesz id="x01" nev="Balogh Mariska" />
+	</film>
+
+	<film id="x02" mufaj="docu">
+		<rendezo id="x03" nev="Sanyi" />
+		<rendezo id="x04" nev="Sanyi" />
+		<szinesz id="x02" nev="Pisti" />
+		<iro id="x02" />
+	</film>
+</mozi>
