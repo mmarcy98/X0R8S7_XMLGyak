@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE SZÁ_konyv SYSTEM "MM_konyv.dtd">
+
+<konyvek>
+	<konyv id="01">
+		<cim>Effective C#</cim>
+		<ev>2018</ev>
+		<kiado>Addam Wesley</kiado>
+		<szerzo>Joshua Groomer</szerzo>
+		<absztrakt>ipfjklasfkladfgasdhajkghasijhsnfmn</absztrakt>
+	</konyv>
+
+	<konyv id="02">
+		<cim>Head First Java</cim>
+		<ev>2020</ev>
+		<kiado>Shroff/O'Riley</kiado>
+		<szerzo>Kathy Sierra</szerzo>
+		<absztrakt>asfkljaklsjfgklasjgkljasklgjsj</absztrakt>
+	</konyv>
+
+	<konyv id="03">
+		<cim>Newest Web Technologies</cim>
+		<ev>2012</ev>
+		<kiado>IT_Books</kiado>
+		<szerzo>Morgan Freeman</szerzo>
+		<absztrakt>asopfasfiojaopfkopasjkfopjkasopfjksopdd</absztrakt>
+	</konyv>
+</konyvek>
