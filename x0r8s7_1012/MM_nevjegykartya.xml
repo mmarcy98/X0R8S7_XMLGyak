@@ -1,1 +1,30 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak>
+<nevjegykartya>
+    <nev>Mészáros</nev>
+    <ceg>
+        <nev>Marcell</nev>
+        <cim>
+            <iranyitoszam>3711</iranyitoszam>
+            <varos>Szirmabesenyő</varos>
+            <utca>Dankó Pista</utca>
+            <hazszam>24</hazszam>
+        </cim>
+        <telefonszam>36306549090</telefonszam>
+        <weblap>mmarcell.hu</weblap></ceg>
+    </nevjegykartya>
+<nevjegykartya>
+    <nev>Váradi</nev>
+    <ceg>
+        <nev>Nóra</nev>
+        <cim>
+            <iranyitoszam>4150</iranyitoszam>
+            <varos>Püspökladány</varos>
+            <utca>petőfi</utca>
+            <hazszam>11</hazszam>
+        </cim>
+        <telefonszam>36705679555</telefonszam>
+        <weblap>varadinora.com</weblap></ceg>
+    </nevjegykartya>
