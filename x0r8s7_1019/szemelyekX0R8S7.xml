@@ -1,1 +1,23 @@
-1
+<?xml version="1.0" encoding="utf-8"?>
+
+<szemelyek>
+	<szemely id="01">
+		<nev>Mészáros Marcell</nev>
+		<kor>23</kor>
+		<varos>Miskolc</varos>
+	</szemely>
+
+	<szemely id="02">
+		<nev>Balogh Mariska</nev>
+		<kor>13</kor>
+		<varos>Háromhányástanya</varos>
+	</szemely>
+
+	<szemely id="01">
+		<nev>Füty Imre</nev>
+		<kor>68</kor>
+		<varos>Pornóapáti</varos>
+	</szemely>
+
+
+</szemelyek>
