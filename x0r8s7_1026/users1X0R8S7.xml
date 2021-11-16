@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="domfb8ypq">
+  <user id="1">
+    <firstname>Meszaros</firstname>
+    <lastname>Marcell</lastname>
+    <profession>Developer</profession>
+  </user>
+  <user id="2">
+    <firstname>Balogh</firstname>
+    <lastname>Mariska</lastname>
+    <profession>Teacher</profession>
+  </user>
+  <user id="3">
+    <firstname>Kiss</firstname>
+    <lastname>Janos</lastname>
+    <profession>Developer</profession>
+  </user>
+</users>
+
