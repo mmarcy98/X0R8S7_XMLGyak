@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<cars>
+    <supercars company = "Alpine">
+        <carname type="formula one">Alpine 2021</carname>
+        <carname type="sports">Alpine 21</carname>
+    </supercars>
+    <supercars company = "McLaren">
+        <carname>McLaren 911</carname>
+        <carname>McLaren 912</carname>
+        <carname>McLaren 913</carname>
+    </supercars>
+    <luxurycars company = "RollsRoyce">
+        <carname>RR 1</carname>
+        <carname>RR 2</carname>
+        <carname>RR 3</carname>
+    </luxurycars>
+</cars>
