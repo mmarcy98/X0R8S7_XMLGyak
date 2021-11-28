@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="etterem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="etterem1" type="etterem_tipus" />
+                    <xs:element name="alapanyag" type="alapanyag_tipus" />
+                    <xs:element name="etel" type="etel_tipus" />
+                    <xs:element name="kiszolgalo" type="kiszolgalo_tipus" />
+                    <xs:element name="rendeles" type="rendeles_tipus" />
+                    <xs:element name="vendeg" type="vendeg_tipus" />
+                    <xs:element name="keszites" type="keszites_tipus" />
+                </xs:choice>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="kod">
+            <xs:selector xpath="etterem1" />
+            <xs:field xpath="@kod" />
+        </xs:key>
+        <xs:key name="azon">
+            <xs:selector xpath="alapanyag" />
+            <xs:field xpath="@azon" />
+        </xs:key>
+        <xs:key name="ekod">
+            <xs:selector xpath="etel" />
+            <xs:field xpath="@ekod" />
+        </xs:key>
+        <xs:key name="kk">
+            <xs:selector xpath="kiszolgalo" />
+            <xs:field xpath="@kk" />
+        </xs:key>
+        <xs:key name="rsz">
+            <xs:selector xpath="rendeles" />
+            <xs:field xpath="@rsz" />
+        </xs:key>
+    </xs:element>
+
+    <xs:complexType name="etterem1_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="nev_tipus" />
+            <xs:element name="cim" type="cim_tipus" />
+            <xs:element name="telefonszam" type="telefonszam_tipus" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="kod" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="alapanyag_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="nev_tipus" />
+            <xs:element name="keszlet" type="keszlet_tipus" />
+            <xs:element name="lejarat" type="lejarat_tipus" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="azon" use="required" />
+        <xs:attribute type="xs:string" name="ekod" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="etel_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="elerhetoseg_tipus" />
+            <xs:element name="ar" type="ar_tipus" />
+            <xs:element name="keszlet" type="keszlet_tipus" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="ekod" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="kiszolgalo_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="nev_tipus" />
+            <xs:element name="munkakor" type="munkakor_tipus" />
+            <xs:element name="elerhetoseg" type="elerhetoseg_tipus" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="kk" use="required" />
+        <xs:attribute type="xs:string" name="rsz" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="rendeles_tipus">
+        <xs:sequence>
+            <xs:element name="idopont" type="idopont_tipus" />
+            <xs:element name="fizmod" type="fizmod_tipus" />
+            <xs:element name="tipus" type="tipus_tipus" />
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="rsz" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="vendeg_tipus">
+        <xs:sequence>
+            <xs:element name="nev" type="nev_tipus" />
+            <xs:element name="cim" type="cim_tipus" />
+            <xs:element name="telefonszam" type="telefonszam_tipus" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="vendeg_tipus">
+        <xs:sequence>
+            <xs:element name="vendeg_szam" type="vendeg_szam_tipus" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="cim_tipus">
+        <xs:sequence>
+            <xs:element name="ir_szam" type="ir_szam_tipus" />
+            <xs:element name="varos" type="varos_tipus" />
+            <xs:element name="utca" type="utca_tipus" />
+            <xs:element name="hazszam" type="hazszam_tipus" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="nev_tipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="4" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="fizmod_tipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="etel_tipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ital_tipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="2" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="elerhetoseg_tipus">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="munkakor_tipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipus_tipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="utca_tipus">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="3" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    <xs:simpleType name="keszlet_tipus">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="hazszam_tipus">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ir_szam_tipus">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ar_tipus">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="2" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="lejarat_tipus">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="idopont_tipus">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

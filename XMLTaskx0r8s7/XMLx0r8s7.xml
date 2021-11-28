@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<etterem>
+    <etterem1 kod="1">
+        <nev>Tüzes Pizzéria</nev>
+        <cim>
+            <ir_szam>9876</ir_szam>
+			<varos>Pornóapáti</varos>
+            <utca>Forró utca</utca>
+            <hazszam>11</hazszam>
+        </cim>
+        <telefonszam>06301234567</telefonszam>
+    </etterem1>
+    <alapanyag azon="1">
+        <nev>Sajt</nev>
+        <keszlet>8</keszlet>
+        <lejarat>2022.04.11.</lejarat>
+    </alapanyag>
+    <alapanyag azon="2">
+        <nev>Sonka</nev>
+        <keszlet>6</keszlet>
+        <lejarat>2022.05.25.</lejarat>
+    </alapanyag>
+    <alapanyag azon="3">
+        <nev>Szalámi</nev>
+        <keszlet>2</keszlet>
+        <lejarat>2022.02.25.</lejarat>
+    </alapanyag>
+    <alapanyag azon="4">
+        <nev>Hagyma</nev>
+        <keszlet>10</keszlet>
+        <lejarat>2021.12.25.</lejarat>
+    </alapanyag>
+    <etel ekod="1" azon="1">
+        <nev>Margaréta</nev>
+        <ar>1890</ar>
+        <keszlet>8</keszlet>
+    </etel>
+    <etel ekod="2" azon="2">
+        <nev>SonkaSajt</nev>
+        <ar>1990</ar>
+        <keszlet>6</keszlet>
+    </etel>
+    <etel ekod="3" azon="3">
+        <nev>SzalamiSajt</nev>
+        <ar>2090</ar>
+        <keszlet>2</keszlet>
+    </etel>
+    <etel ekod="4" azon="4">
+        <nev>HagymaSajt</nev>
+        <ar>1990</ar>
+        <keszlet>8</keszlet>
+    </etel>
+    <kiszolgalo kk="1" rsz="1">
+        <nev>Balogh Mariska</nev>
+        <munkakor>pincer</munkakor>
+        <elerhetoseg>06202345678</elerhetoseg>
+    </kiszolgalo>
+    <kiszolgalo kk="2" rsz="2">
+        <nev>Kiss Gábor</nev>
+        <munkakor>futar</munkakor>
+        <elerhetoseg>06703456789</elerhetoseg>
+    </kiszolgalo>
+	<rendeles rsz="1">
+        <idopont>2021.11.11 11:11</idopont>
+        <fizmod>kp</fizmod>
+		<tipus>elvitel</tipus>
+    </rendeles>
+	<rendeles rsz="2">
+        <idopont>2021.11.11 12:11</idopont>
+        <fizmod>bk</fizmod>
+		<tipus>kiszallitas</tipus>
+    </rendeles>
+	<rendeles rsz="3">
+        <idopont>2021.11.11 13:11</idopont>
+        <fizmod>szepkartya</fizmod>
+		<tipus>helybenfogy</tipus>
+    </rendeles>
+    <vendeg sorszam="1">
+        <nev>Nagy Bernadett</nev>
+        <cim>
+            <ir_szam>9876</ir_szam>
+			<varos>Pornóapáti</varos>
+            <utca>Hideg utca</utca>
+            <hazszam>1</hazszam>
+        </cim>
+        <telefonszam>06309876654</telefonszam>
+    </vendeg>
+    <vendeg sorszam="2">
+        <nev>Nagy János</nev>
+        <cim>
+            <ir_szam>9875</ir_szam>
+			<varos>Háromhányástanya</varos>
+            <utca>Alkohol</utca>
+            <hazszam>99</hazszam>
+        </cim>
+        <telefonszam>06505551289</telefonszam>
+    </vendeg>
+    <vendeg sorszam="3">
+        <nev>Pici Béla</nev>
+        <cim>
+            <ir_szam>9877</ir_szam>
+			<varos>Dunavarsány</varos>
+            <utca>Ivó utca</utca>
+            <hazszam>33</hazszam>
+        </cim>
+        <telefonszam>06705896455</telefonszam>
+    </vendeg>
+	<keszites>
+		<tipus>sutes</tipus>
+	</keszites>
+</etterem>
