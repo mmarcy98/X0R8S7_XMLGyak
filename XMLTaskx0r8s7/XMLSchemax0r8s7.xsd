@@ -5,13 +5,13 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:choice maxOccurs="unbounded">
-                    <xs:element name="etterem1" type="etterem_tipus" />
-                    <xs:element name="alapanyag" type="alapanyag_tipus" />
-                    <xs:element name="etel" type="etel_tipus" />
-                    <xs:element name="kiszolgalo" type="kiszolgalo_tipus" />
-                    <xs:element name="rendeles" type="rendeles_tipus" />
-                    <xs:element name="vendeg" type="vendeg_tipus" />
-                    <xs:element name="keszites" type="keszites_tipus" />
+                    <xs:element name="etterem1" type="xs:string" use="required"/>
+                    <xs:element name="alapanyag" type="xs:string" use="required"/>
+                    <xs:element name="etel" type="xs:string" use="required"/>
+                    <xs:element name="kiszolgalo" type="xs:string" use="required"/>
+                    <xs:element name="rendeles" type="xs:strings" use="required"/>
+                    <xs:element name="vendeg" type="xs:string" use="required"/>
+                    <xs:element name="keszites" type="xs:string" use="required"/>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
@@ -39,18 +39,18 @@
 
     <xs:complexType name="etterem1_tipus">
         <xs:sequence>
-            <xs:element name="nev" type="nev_tipus" />
-            <xs:element name="cim" type="cim_tipus" />
-            <xs:element name="telefonszam" type="telefonszam_tipus" />
+            <xs:element name="nev" type="xs:string" use="required"/>
+            <xs:element name="cim" type="xs:integer" use="required"/>
+            <xs:element name="telefonszam" type="xs:integer" use="required"/>
         </xs:sequence>
         <xs:attribute type="xs:string" name="kod" use="required" />
     </xs:complexType>
 
     <xs:complexType name="alapanyag_tipus">
         <xs:sequence>
-            <xs:element name="nev" type="nev_tipus" />
-            <xs:element name="keszlet" type="keszlet_tipus" />
-            <xs:element name="lejarat" type="lejarat_tipus" />
+            <xs:element name="nev" type="xs:string" use="required"/>
+            <xs:element name="keszlet" type="xs:integer" use="required"/>
+            <xs:element name="lejarat" type="xs:integer" use="required"/>
         </xs:sequence>
         <xs:attribute type="xs:string" name="azon" use="required" />
         <xs:attribute type="xs:string" name="ekod" use="required" />
@@ -58,18 +58,18 @@
 
     <xs:complexType name="etel_tipus">
         <xs:sequence>
-            <xs:element name="nev" type="elerhetoseg_tipus" />
-            <xs:element name="ar" type="ar_tipus" />
-            <xs:element name="keszlet" type="keszlet_tipus" />
+            <xs:element name="nev" type="xs:integer"use="required" />
+            <xs:element name="ar" type=xs:integer"use="required" />
+            <xs:element name="keszlet" type="xs:integer"use="required" />
         </xs:sequence>
         <xs:attribute type="xs:string" name="ekod" use="required" />
     </xs:complexType>
 
     <xs:complexType name="kiszolgalo_tipus">
         <xs:sequence>
-            <xs:element name="nev" type="nev_tipus" />
-            <xs:element name="munkakor" type="munkakor_tipus" />
-            <xs:element name="elerhetoseg" type="elerhetoseg_tipus" />
+            <xs:element name="nev" type="xs:string" use="required"/>
+            <xs:element name="munkakor" type="xs:string" use="required"/>
+            <xs:element name="elerhetoseg" type="xs:integer" use="required"/>
         </xs:sequence>
         <xs:attribute type="xs:string" name="kk" use="required" />
         <xs:attribute type="xs:string" name="rsz" use="required" />
@@ -77,33 +77,33 @@
 
     <xs:complexType name="rendeles_tipus">
         <xs:sequence>
-            <xs:element name="idopont" type="idopont_tipus" />
-            <xs:element name="fizmod" type="fizmod_tipus" />
-            <xs:element name="tipus" type="tipus_tipus" />
+            <xs:element name="idopont" type="xs:integer"use="required" />
+            <xs:element name="fizmod" type="xs:string" use="required"/>
+            <xs:element name="tipus" type="xs:string" use="required"/>
         </xs:sequence>
         <xs:attribute type="xs:string" name="rsz" use="required" />
     </xs:complexType>
 
     <xs:complexType name="vendeg_tipus">
         <xs:sequence>
-            <xs:element name="nev" type="nev_tipus" />
-            <xs:element name="cim" type="cim_tipus" />
-            <xs:element name="telefonszam" type="telefonszam_tipus" />
+            <xs:element name="nev" type="xs:string" use="required"/>
+            <xs:element name="cim" type="xs:string" use="required"/>
+            <xs:element name="telefonszam" type="xs:integer" use="required"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="vendeg_tipus">
         <xs:sequence>
-            <xs:element name="vendeg_szam" type="vendeg_szam_tipus" />
+            <xs:element name="vendeg_szam" type="vendeg_szam_tipus" use="required"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="cim_tipus">
         <xs:sequence>
-            <xs:element name="ir_szam" type="ir_szam_tipus" />
-            <xs:element name="varos" type="varos_tipus" />
-            <xs:element name="utca" type="utca_tipus" />
-            <xs:element name="hazszam" type="hazszam_tipus" />
+            <xs:element name="ir_szam" type="xs:integer" />
+            <xs:element name="varos" type="xs:string" />
+            <xs:element name="utca" type="xs:string" />
+            <xs:element name="hazszam" type="xs:integer" />
         </xs:sequence>
     </xs:complexType>
 
